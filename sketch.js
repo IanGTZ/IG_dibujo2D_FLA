@@ -11,7 +11,6 @@ function setup() {
 function preload()
 {
   imagenFondo = loadImage('./images/fondo.jpg')
-  sonidoFondo = loadSound('./sounds/fondoFL.mp3')
 }
 
 
@@ -687,8 +686,6 @@ fill(0)
 square(375,1025,25)
  
 drawreverse()
-
-sonidoFondo.play()
 }
 
 function drawreverse ()
@@ -1358,3 +1355,4 @@ rect(1675,1025,50,25)
 fill(0)
 square(1725,1025,25)
 }
+
